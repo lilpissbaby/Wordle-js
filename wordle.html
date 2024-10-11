@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-light">
     
     <form action="#" name="" method="POST" onsubmit="verifForm()">
-        <label>Nom:</label>
-        <input type="text" id="nom" class="obligatori"><br>
-
-        <label>Cognom:</label>
-        <input type="text" id="cognom" class="obligatori"><br>
-
-        <label>Email:</label>
-        <input type="text" id="email" class="obligatori"><br>
-
-        <label>Telèfon:</label>
-        <input type="text" id="telf" class="obligatori"><br>
-
+        <div class="form-group">
+            <label>Nom:</label>
+            <input class="form-control" type="text" id="nom" class="obligatori"><br>
+        </div>
+        <div class="form-group">
+            <label>Cognom:</label>
+            <input class="form-control" type="text" id="cognom" class="obligatori"><br>
+        </div>  
+        <div class="form-group">
+            <label>Email:</label>
+            <input class="form-control" type="text" id="email" class="obligatori"><br>
+        </div>
+        <div class="form-group">
+            <label>Telèfon:</label>
+            <input class="form-control" type="text" id="telf" class="obligatori"><br>
+        </div>
         <input type="submit" value="Validar">
         
     </form>
